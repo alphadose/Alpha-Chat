@@ -1,13 +1,14 @@
 +++>>>AlphaChat<<<+++
 
-Usage:-
+How to use:-
+
 cd into the directory
 
 run "make all"
 
-run "./server <port>""
+run "./server <port>" for server side
 
-run "./client <ip address> <port>"
+run "./client <ip_address> <port>" for client side
 
 ------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------
