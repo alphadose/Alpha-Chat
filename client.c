@@ -115,7 +115,8 @@ void connect_to_server(connection_info *connection, char *address, char *port)
     connection->address.sin_family = AF_INET;
     connection->address.sin_port = htons(atoi(port));
 
-    if (connect(connection->socket, (struct sockaddr *)&connection->address , sizeof(connection->address)) < 0)
+    if (connect(connection->socket, (struct sockaddr *)&connection->address, 
+        sizeof(connection->address)) < 0)
     {
         perror("Connect failed.");
         exit(1);
@@ -134,10 +135,10 @@ void connect_to_server(connection_info *connection, char *address, char *port)
     else if(recv_val == 0)
     {
       close(connection->socket);
-      printf("The username \"%s\" is taken, please try another name.\n", connection->username);
+      printf("The username \"%s\" is taken, please try another name.\n",
+             connection->username);
       continue;
     }
-
     break;
   }
 

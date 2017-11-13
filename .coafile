@@ -1,0 +1,11 @@
+[cli]
+bears = GNUIndentBear
+files = *.c
+use_spaces = True
+default_actions = *: ApplyPatchAction
+max_line_length = 120
+
+[Makefiles]
+bears = LineLengthBear
+files = makefile
+default_actions = *: ShowPatchAction
