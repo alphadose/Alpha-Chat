@@ -1,15 +1,16 @@
-<b>AlphaChat</b>
+#AlphaChat
 
 How to use:-
+```
+git clone https://github.com/alphadose/Alpha-Chat/edit/master/README.md
 
-cd into the directory
+cd Alpha-Chat
 
-run "make all"
+make all
 
-run "./server < port >" for server side
+./server < port > (for server side)
 
-run "./client <ip_address> < port >" for client side
+./client <ip_address> < port > (for client side)
+```
 
-------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------
-If you want to clean the executable files just run "make clean"
+> If you want to clean the executable files just run "make clean"
