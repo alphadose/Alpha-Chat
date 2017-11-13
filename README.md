@@ -1,4 +1,4 @@
-#AlphaChat
+# AlphaChat
 
 How to use:-
 ```
