@@ -2,7 +2,7 @@
 
 How to use:-
 ```
-git clone https://github.com/alphadose/Alpha-Chat/edit/master/README.md
+git clone https://github.com/alphadose/Alpha-Chat
 
 cd Alpha-Chat
 
