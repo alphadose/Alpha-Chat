@@ -1,16 +1,36 @@
 # AlphaChat
 
-How to use:-
-```
-git clone https://github.com/alphadose/Alpha-Chat
+## Setup
 
-cd Alpha-Chat
+1. Clone this repository and cd into it
+```bash
+$ git clone https://github.com/alphadose/Alpha-Chat
 
-make all
-
-./server < port > (for server side)
-
-./client <ip_address> < port > (for client side)
+$ cd Alpha-Chat
 ```
 
-> If you want to clean the executable files just run "make clean"
+2. Build project binaries
+```bash
+$ make all
+* Building Server
+* Building Client
+* Done
+```
+
+## Hosting the Chat-Server
+```bash
+$ ./server <port>
+Starting server.
+Waiting for incoming connections...
+```
+
+## Connecting to the Chat-Server via Client
+```bash
+$ ./client <ip_address_of_server> <port>
+```
+
+## Cleaning binaries
+```bash
+$ make clean
+* Done
+```
