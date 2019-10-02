@@ -6,7 +6,13 @@
 ```bash
 $ git clone https://github.com/alphadose/Alpha-Chat
 
-$ cd Alpha-Chat
+$ cd Alpha-Chat && make help
+Alpha-Chat: A chat ecosystem built purely in C
+
+* server: Build the server
+* client: Build the client
+* all:    Build the server and client
+* clean:  Remove project binaries
 ```
 
 2. Build project binaries
